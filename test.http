@@ -1,0 +1,5 @@
+###
+GET http://localhost:3000/phrase?phrase=This_is_a_phrase
+
+###
+GET http://localhost:3000/home/this_is_a_phrase
