@@ -8,4 +8,6 @@ Rails.application.routes.draw do
 
   get "/home/:wildcard" => "params#segment_phrase"
 
+  # post "/phrase_two" => "params#body_phrase"
+
 end

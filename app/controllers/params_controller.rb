@@ -7,4 +7,8 @@ class ParamsController < ApplicationController
   def segment_phrase
     render json: {messaage: "#{params[:wildcard].upcase}"}
   end
+
+  def body_phrase
+    render json: {message: "hello"}
+  end
 end
